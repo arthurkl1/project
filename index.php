@@ -1,6 +1,6 @@
 <?php
 
-/*require_once 'vendor/autoload.php';
+require_once 'vendor/autoload.php';
 
 try
 {
@@ -22,6 +22,6 @@ echo $twig->render('index.twig',
     array(
         "menu" => $data
     )
-);*/
+);
 
 
