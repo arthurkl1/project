@@ -1,0 +1,887 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section,
+header,
+.pitch{
+    float:left;
+    width:100%;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+
+.top-section{
+    color:white;
+    background-image: url(img/bg.jpg);
+    padding-bottom:270px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.top-section *{
+    color: white;
+}
+
+.centred{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:1280px;
+}
+
+header{
+    margin-top:45px;
+}
+
+header .logo{
+    float: left;
+}
+
+.menu{
+    float:right;
+    padding-top: 25px;
+}
+
+
+.menu li {
+    float:left;
+    margin-right: 60px;
+
+}
+
+.menu li a{
+    text-decoration: none;
+    padding-bottom:10px;
+}
+
+.menu  a:hover{
+    border-bottom: 1px solid #f45b69;
+}
+
+.menu li:last-child{
+    margin-right:0px;
+}
+
+header .menu li:nth-child(4){
+    margin-right:30px;
+}
+
+.btn-primary{
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: -15px;
+    border-radius: 30px;
+    border:2px solid #f45b69;
+    -moz-border-radius:30px;
+    -webkit-border-radius:30px;
+    -o-border-radius:30px;
+    background-color: transparent;
+}
+
+.btn-primary:hover{
+    background-color: #f45b69;
+    color:white;
+}
+
+.login.btn-primary{
+    margin-right:20px;
+}
+
+.pitch{
+    margin-top: 180px;
+    position:relative;
+}
+
+.pitch .img{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+.pitch p{
+    line-height: 64px;
+    text-align: center;
+    float:left;
+    width:100%;
+    margin-top:30px;
+    margin-bottom:30px;
+    font-size:28px;
+}
+
+.pitch form{
+    float:left;
+    width:100%;
+}
+
+.center{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    background-color:white;
+    padding:5px;
+    border-radius:30px;
+    -moz-border-radius:30px;
+    -webkit-border-radius:30px;
+    -o-border-radius:30px;
+}
+
+.search{
+    border-radius: 30px;
+    border:none;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    width:75%;
+    color:black;
+}
+
+.submit{
+    background-color: #f45b69;
+    border:none;
+    border-radius: 30px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    cursor:pointer;
+}
+
+.second-section{
+    height: 225px;
+}
+
+
+.second-section .centred{
+    margin-top: 50px;
+    float:left;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.second-section .centred p{
+    word-spacing: 8px;
+    text-align: center;
+    line-height: 34px;
+    color: #5f5f5f;
+    width: 100%;
+    font-size: 25px;
+}
+
+.icon-toggle-bottom{
+    background-color:#f45b69;
+    background-image:url(/assets/img/ftj_03.png);
+    background-repeat:no-repeat;
+    background-position:center center;
+    width:60px;
+    height:60px;
+    display:block;
+    border-radius:30px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-30px;
+    cursor:pointer;
+    -moz-box-shadow: 0px 0px 5px 0px #000000;
+    -webkit-box-shadow: 0px 0px 5px 0px #000000;
+    -o-box-shadow: 0px 0px 5px 0px #000000;
+    box-shadow: 0px 0px 5px 0px #000000;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=NaN, Strength=5);
+}
+
+.second-section .img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: -35px;
+
+}
+
+.third-section{
+    height: 718px;
+    background-color: #f2f2f2;
+}
+
+.third-section .centred h1{
+    text-align: center;
+    width: 100%;
+    float: left;
+    color:#373737 ;
+    font-size: 30px;
+    margin-top: 68px;
+}
+
+.squares{
+    float: left;
+    width: 100%;
+    margin-top:20px;
+    color: white;
+}
+
+.squares li{
+    float: left;
+    width:30%;
+    margin-right:5%;
+    height:500px;
+}
+
+.squares li:last-child{
+    margin-right:0%;
+}
+
+.squares .faster{
+    background-image: url(img/faster.jpg);
+}
+
+.squares .management{
+    background-image: url(img/management.jpg);
+}
+
+.squares .work{
+    background-image: url(img/work.jpg);
+}
+
+.squares h2{
+    float:left;
+    width:100%;
+    text-align:center;
+    margin-bottom:15px;
+    font-size: 18px;
+}
+
+.squares p{
+    font-size: 18px;
+    padding-left:20px;
+    padding-right:20px;
+    width:calc(100% - 40px);
+    float:left;
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.squares .management p{
+    text-align:left;
+    margin-bottom:20px;
+    font-size:14px;
+}
+
+
+.squares .icon{
+    width:60px;
+    height:60px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    margin-bottom:15px;
+}
+
+.squares .work .icon{
+    width:37px;
+    height:51px;
+    background-image:url(/assets/img/icons.png);
+}
+
+.squares .management .icon{
+    width:52px;
+    height:34px;
+    background-image:url(/assets/img/icons.png);
+    background-position:-90px;
+}
+
+.squares .faster .icon{
+    width: 53px;
+    height: 41px;
+    background-image:url(/assets/img/icons.png);
+    background-position:-37px;
+}
+
+
+
+.squares li{
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+
+.height-centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:100%;
+}
+
+
+.fourth-section{
+    height: 820px;
+    background-image: url(img/mobilapp-bg_02.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    color: white;
+}
+
+.fourth-section .iphone{
+    display: block;
+    float: right;
+    background-color: transparent;
+}
+
+.fourth-section .left-pitch{
+    float: left;
+    width: 64%;
+    height: 609px;
+}
+
+.fourth-section .mobilapp-header{
+    margin-bottom: 3%;
+    float: left;
+}
+
+
+.fourth-section header .little-font{
+    float: left;
+    margin-top: 10px;
+}
+.big-font{
+    float: left;
+    font-size:30px;
+    margin-right: 9px;
+    color: #e4fde1;
+
+}
+.mobilapp-pitch{
+    float:left;
+}
+
+.fourth-section .mobilapp-icons{
+    float: left;
+    margin-top: 7px;
+    margin-right: 15px;
+}
+
+
+
+.fourth-section .mobilapp-icons li{
+    margin-bottom: 124%;
+    padding-bottom: 40px;
+}
+
+
+.fourth-section .icon-always .mobilapp-button{
+    background-color:#00a8e8;
+    background-image:url(/assets/img/icon-always_03.png);
+    background-repeat:no-repeat;
+    background-position:center center;
+    width:60px;
+    height:60px;
+    display:block;
+    border-radius:30px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.fourth-section .icon-connect .mobilapp-button{
+    background-color:#edbb56;
+    background-image:url(/assets/img/icon-connect_03.png);
+    background-repeat:no-repeat;
+    background-position:center center;
+    width:60px;
+    height:60px;
+    display:block;
+    border-radius:30px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.fourth-section .icon-video .mobilapp-button{
+    background-color:#ff5a00;
+    background-image:url(/assets/img/icon-video_03.png);
+    background-repeat:no-repeat;
+    background-position:center center;
+    width:60px;
+    height:60px;
+    display:block;
+    border-radius:30px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
+
+.mobilapp-list li{
+    border-bottom: 1px solid #636363;
+    padding-bottom: 40px;
+    margin-bottom: 7%;
+
+
+}
+
+
+.mobilapp-list li:last-child{
+    border-bottom: 0px transparent;
+    padding-bottom: 0px;
+    margin-bottom:40px;
+}
+
+
+
+.mobilapp-list h2{
+    font-size: 20px;
+    margin-bottom: 6%;
+}
+
+.mobilapp-list .always h2{
+    color: #00a8e8;
+}
+
+.mobilapp-list .connect h2{
+    color:#edbb56;
+}
+
+.mobilapp-list .video h2{
+    color:#ff5a00;
+}
+
+.mobilapp-footer{
+    float: left;
+    width: 100%;
+    margin-bottom: 13px;
+}
+
+
+.fourth-section .btn-primary{
+    float: left;
+    width: 10%;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    border-color:white ;
+}
+
+.fourth-section .btn-primary:hover{
+    border-color: transparent;
+}
+
+.fourth-section .mobilapp-footer .ios .btn-primary{
+    margin-right: 0px;
+}
+
+.icon-footer{
+    float: left;
+    display: block;
+    background-repeat: no-repeat;
+    margin-right: 14px;
+    margin-left: 15px;
+}
+
+.mobilapp-footer .mobile-type p{
+    display: block;
+    margin-top: 4px;
+}
+
+.mobilapp-footer .android .icon-footer{
+    width:17px;
+    height:25px;
+    background-image: url(/assets/img/icon-android_03.png) ;
+}
+
+.mobilapp-footer .ios .icon-footer{
+    width: 26px;
+    height: 24px;
+    background-image: url(/assets/img/icon-appstore_03.png);
+}
+
+
+
+
+
+.fith-section{
+    height: 260px;
+    background-color: white;
+}
+
+.fith-section p{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #373737;
+    font-size: 22px;
+}
+
+.fith-section .center{
+    border: 3px solid #a2a2a2;
+}
+
+.fith-section .center .search{
+    width: 67%;
+}
+
+.fith-section .center .submit{
+    color: white;
+}
+
+
+
+
+.sixth-section{
+    height: 490px;
+    background-color: #f2f2f2;
+}
+
+.sixth-section .social-networks{
+    float: left;
+    width: 100%;
+    display: block;
+    height: 325px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 6.5%;
+}
+
+.sixth-section .social-networks li{
+    float: left;
+    width: 24.25%;
+    color: black;
+    height: 100%;
+    margin-right: 1%;
+    position: relative;
+    transform-style: preserve-3d;
+    text-align: center;
+    background-color: white;
+}
+
+.sixth-section .social-networks li:last-child{
+    margin-right: 0px;
+}
+
+
+.social-networks .logos{
+    width:60px;
+    height:60px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    margin-bottom:15px;
+}
+
+.social-networks h2{
+    margin-bottom: 27px;
+    margin-top: 48px;
+    color: #f45b69;
+    font-size: 23px;
+}
+
+.social-networks .logo-github{
+    width:67px;
+    height:57px;
+    background-image:url(/assets/img/logos-reseaux.png);
+}
+
+
+.social-networks .logo-gitlab{
+    width:61px;
+    height:57px;
+    background-image:url(/assets/img/logos-reseaux.png);
+    background-position: -67px;
+}
+
+.social-networks .logo-trello{
+    width:55px;
+    height:56px;
+    background-image:url(/assets/img/logos-reseaux.png);
+    background-position: -130px;
+}
+
+.social-networks .logo-office{
+    width:57px;
+    height:57px;
+    background-image:url(/assets/img/logos-reseaux.png);
+    background-position: -186px;
+}
+
+
+
+.seventh-section {
+    height: 970px;
+    background-image: url(/assets/img/bg-seventh_02.jpg);
+}
+.seventh-section *{
+    color: white;
+}
+.bye-header{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+.bye-header h1{
+    color: #e4fde1;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+.bye-pitch{
+    margin-bottom: 105px;
+    height: 530px;
+
+}
+
+.bye-formulaire{
+    float: left;
+    width:45%;
+    margin-right:5%;
+    height: 100%;
+}
+
+.bye-formulaire form{
+    float:left;
+    width:100%;
+}
+
+.bye-formulaire input:not(.submit), .bye-formulaire textarea{
+    float: left;
+    width:calc(100% - 60px);
+    margin-bottom: 25px;
+    border-radius: 10px;
+    padding-top:18px;
+    padding-bottom:18px;
+    padding-left: 30px;
+    padding-right:30px;
+    border: transparent;
+    color:#373737;
+
+}
+
+.bye-formulaire .submit{
+    float:left;
+    width:100%;
+    text-transform:uppercase;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.bye-formulaire textarea{
+    max-width:calc(100% - 60px);
+    max-height:250px;
+    min-height:150px;
+}
+
+.bye-formulaire .bye-submit{
+    padding-right: 12%;
+    padding-left: 12%;
+    color: white;
+    border-radius: 30px;
+}
+
+.bye-icons-and-offices{
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.bye-offices{
+    float: right;
+    height: 100%;
+}
+
+.bye-icons{
+    float: right;
+    width: 10%;
+    height: 100%;
+}
+
+.bye-offices-list h2{
+    color: #e4fde1;
+    font-size: 18px;
+}
+
+.bye-offices-list .support p{
+    margin-bottom: 32px;
+
+}
+
+
+
+
+
+
+
+.bye-icon-home{
+    width: 100%;
+    height: 40%;
+}
+
+.bye-icons-list{
+    height: 100%;
+}
+
+.bye-icons li{
+    margin-bottom: 124%;
+    width: 23px;
+    height: 20px;
+    margin-left: 10px;
+
+}
+
+.bye-icons li:last-child{
+    margin-bottom: 0px;
+}
+
+.bye-icon-home{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.global-support-icons li{
+    margin-bottom:48%;
+}
+
+.bye-icon-home li{
+    margin-bottom: 190%;
+}
+
+
+.bye-icons i{
+    float: left;
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url(/assets/img/Icons-bye.png) ;
+}
+
+.house-icon{
+    width: 23px;
+    height: 20px;
+}
+
+
+.global-support-icons .phone-icon{
+    width:12px;
+    height: 20px;
+    background-position: -23px;
+    margin-left: 5px;
+}
+
+.global-support-icons .earth-icon{
+    width:19px ;
+    height:20px;
+    background-position: -35px;
+    margin-left: 2px;
+}
+
+.global-support-icons .mail-icon{
+    width: 23px;
+    height: 17px;
+    background-position: -54px;
+}
+
+.global-support-icons{
+}
+
+
+.bye-footer{
+    float: left;
+    width: 100%;
+    color: white;
+}
+
+.bye-footer-menu{
+    float: left;
+    width: 56%;
+    margin-right: 23%;
+    margin-left: 23%;
+
+}
+
+
+
+.footer-section{
+    height: 191px;
+    width: 100%;
+}
+
+.footer-section .centred{
+    height: 100%;
+}
+
+.footer-footer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.footer-logos{
+    width: 100%;
+    float: left;
+    margin-bottom: 17px;
+    margin-left: 38%;
+
+}
+
+.footer-logos li{
+    width: 40px;
+    height: 40px;
+    float: left;
+
+
+}
+
+
+.footer-logos .social-logos li i{
+    float: left;
+}
+
+.facebook-logo{
+    width: 12px;
+    height: 23px;
+    background-image: url(/assets/img/socials-logos.png);
+    background-repeat: no-repeat;
+}
+
+.twitter-logo{
+    width: 28px;
+    height: 23px;
+    background-image: url(/assets/img/socials-logos.png);
+    background-repeat: no-repeat;
+    background-position: -12px;
+}
+
+.google-logo{
+    width: 23px;
+    height: 25px;
+    background-image: url(/assets/img/socials-logos.png);
+    background-repeat: no-repeat;
+    background-position: -40px;
+}
+
+.instagram-logo{
+    width: 23px;
+    height: 26px;
+    background-image: url(/assets/img/socials-logos.png);
+    background-repeat: no-repeat;
+    background-position: -63px;
+}
+
+
+.copyright{
+    float: left;
+    width: 100%;
+    color: #c4c4c4;
+    word-spacing: 15px;
+    text-align: center;
+}

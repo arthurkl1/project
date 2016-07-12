@@ -1,0 +1,308 @@
+{% extends "base.twig" %}
+
+{% block body %}
+    <section class="top-section">
+        <div class="centred">
+            <header>
+                <a class="logo" title="DaBuddy" href="/"><img src="/assets/img/logo.png"  /></a>
+                <ul class="menu">
+                    {% for item in menu %}
+                        <li class ="first-part-menu">
+                            {% if item.target == true %}
+                                <a href="{{ item.link }}" target="_blank">
+                            {% else %}
+                                <a href="{{ item.link }}">
+                            {% endif %}
+                                {{ item.name }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                    <li class="login btn-primary"><a href="#">Log in</a></li>
+                    <li class="try-for-free btn-primary"><a href="#">Try for free</a></li>
+                </ul>
+            </header>
+
+            <div class="pitch">
+                <img class="img" src="/assets/img/pitch.png" alt="Happy @ work"/>
+                <p>
+                    A refreshing approach to team communication
+                    <br/>Or<br/>
+                    start a conversation without the hassle of signing up
+                </p>
+                <form method="post" action="/index.php">
+                    <div class="center">
+                        <input type="text" name="" class="search" placeholder="Make ur search"/>
+                        <input type="submit" class="submit" value="Start" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="second-section">
+        <i class="icon-toggle-bottom"></i>
+        <div class="centred">
+            <p>Lorem Ipsum is simply dummy text of printing and typesetting industry. Lorem Ipsum has been
+                <br/> the industry's standard dummy text evre since the 1500s.
+            </p>
+        </div>
+    </section>
+
+
+
+
+    <section class="third-section">
+            <div class="centred">
+                <h1>Features</h1>
+                        <ul class="squares">
+                             <li class="faster">
+                                 <div class="height-centered">
+                                     <i class="icon"></i>
+                                     <p>Faster connection<br/> and collaboration</p>
+                                 </div>
+                             </li>
+                             <li class="management">
+                                 <div class="height-centered">
+                                     <i class="icon"></i>
+                                     <h2>Better data management</h2>
+                                     <p>Increase data privacy as only owner and admins can create and manage groups</p>
+                                     <p>Secure data in the cloud and never worry about losing them</p>
+                                     <p>All data is accessible and searchable from their relevant topic</p>
+                                 </div>
+                             </li>
+                             <li class ="work">
+                                 <div class="height-centered">
+                                    <i class="icon"></i>
+                                    <p>Happier at work</p>
+                                 </div>
+                             </li>
+                        </ul>
+            </div>
+    </section>
+
+
+
+
+    <section class="fourth-section">
+            <div class="centred">
+                <header class="mobilapp-header">
+                    <p class="big-font">DaBuddy Mobil App</p>
+                    <p class="little-font">is available now</p>
+                </header>
+                <img class="iphone" src="/assets/img/iphone_03.png" alt="iphone">
+                <ul class="mobilapp-icons">
+                    <li class="icon-always">
+                            <i class="mobilapp-button "></i>
+                            <i class="mobilapp-icon"></i>
+                    </li>
+                    <li class="icon-connect">
+                            <i class="mobilapp-button"></i>
+                            <i class="mobilapp-icon"></i>
+                    </li>
+                    <li class="icon-video">
+                            <i class="mobilapp-button"></i>
+                            <i class="mobilapp-icon"></i>
+                    </li>
+                 </ul>
+                <div class="left-pitch">
+                    <div class="mobilapp-pitch">
+                        <ul class="mobilapp-list">
+                            <li class="always">
+                                <h2>Always Online</h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/>
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                </p>
+                            </li>
+                            <li class="connect">
+                                <h2>Stay connect</h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/>
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                </p>
+                            </li>
+                            <li class="video">
+                                <h2>Video or Voice Call</h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/>
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </ul>
+                    <div class="mobilapp-footer">
+                            <ul class="mobile-type">
+                                    <li class="android">
+                                            <div class="btn-primary">
+                                                    <i class="icon-footer"></i>
+                                                    <p>Android</p>
+                                            </div>
+                                    </li>
+                                    <li class="ios">
+                                            <div class="btn-primary">
+                                                   <i class="icon-footer"></i>
+                                                   <p>iOS</p>
+                                            </div>
+                                    </li>
+                            </ul>
+                    </div>
+            </div>
+    </section>
+
+
+
+
+    <section class="fith-section">
+            <div class="centred">
+                    <p>DaBuddy is a powerful and secured communication tool for your organization!</p>
+                    <div class="center">
+                            <form class="try-for-free-form" method="post" action="/index.php">
+                                    <input class="search try-for-free-email" type="text" placeholder="Enter Your Email"/>
+                                    <input class="submit try-for-free-submit" type="submit" value="Try for free"/>
+                            </form>
+                    </div>
+            </div>
+    </section>
+
+
+    <section class="sixth-section">
+            <div class="centred">
+                <ul class="social-networks">
+                        <li class="github">
+                                <div class="height-centered">
+                                        <i class=" logos logo-github"></i>
+                                        <h2>Github</h2>
+                                        <p>Get notifications when<br/>
+                                           there're any commits,pull<br/>
+                                           requests,opened tickets.
+                                         </p>
+                                 </div>
+                        </li>
+                        <li class="gitlab">
+                                <div class="height-centered">
+                                        <i class=" logos logo-gitlab"></i>
+                                        <h2>Gitlab</h2>
+                                        <p>Get notifications when<br/>
+                                            there're any commits,pull<br/>
+                                            requests,opened tickets.
+                                        </p>
+                                </div>
+                        </li>
+                        <li class="trello">
+                                <div class="height-centered">
+                                        <i class=" logos logo-trello"></i>
+                                        <h2>Trello</h2>
+                                        <p>Get instant updates with<br/>
+                                            changes on Trello cards
+                                        </p>
+                                </div>
+                        </li>
+                        <li class="office">
+                                <div class="height-centered">
+                                         <i class="logos logo-office"></i>
+                                         <h2>Offic.co</h2>
+                                         <p>Get notifications when<br/>
+                                            there're any commits,pull<br/>
+                                            requests,opened tickets.
+                                         </p>
+                                </div>
+                        </li>
+                </ul>
+            </div>
+    </section>
+
+
+    <section class="seventh-section">
+            <div class="centred">
+                    <div class="bye-header">
+                        <h1>Drop by and say hello</h1>
+                        <p>For more information et support, please contact us</p>
+                    </div>
+                    <div class="bye-pitch">
+                            <div class="bye-formulaire">
+                                    <form class="formulaire" method="post" action="/index.php">
+                                            <input class="bye-name" type="text" placeholder="Name"/>
+                                            <input class="bye-email" type="text" placeholder="Email"/>
+                                            <input class="bye-subject" type="text" placeholder="Subject"/>
+                                            <textarea name="message" placeholder="Message"></textarea>
+                                            <input type="submit" class="submit bye-submit" value="Send"/>
+                                    </form>
+                            </div>
+                            <div class="bye-icons-and-offices">
+                                    <div class="bye-offices">
+                                            <ul class=" mobilapp-list bye-offices-list">
+                                                <li class="Danang">
+                                                <h2>Danang office</h2>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                                                </li>
+                                                <li class="ho-chi-minh">
+                                                    <h2>Danang office</h2>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                                                </li>
+                                                <li class="support">
+                                                    <h2>Global support</h2>
+                                                    <p>Local phone : XXXX XXXXX</p>
+                                                    <p>International phone: +XX XXX XXX XXXX</p>
+                                                    <p>Email: support@Dabuddy.com</p>
+                                                </li>
+                                            </ul>
+                                    </div>
+                                   <div class="bye-icons">
+                                            <ul class="bye-icons-list">
+                                                <div class="bye-icon-home">
+                                                        <li><i class="house-icon"></i></li>
+                                                        <li><i class="house-icon"></i></li>
+                                                </div>
+                                                <div class="global-support-icons">
+                                                        <li><i class="phone-icon"></i></li>
+                                                        <li><i class="earth-icon"></i></li>
+                                                        <li><i class="mail-icon"></i></li>
+                                                </div>
+                                             </ul>
+                                    </div>
+                            </div>
+                    </div>
+                    <div class="bye-footer">
+                            <ul class=" menu bye-footer-menu">
+                                    <li class="bye-menu"><a href="#">Home</a></li>
+                                    <li class="bye-menu"><a href="#">Integrations</a></li>
+                                    <li class="bye-menu"><a href="#">Tearms of Service</a></li>
+                                    <li class="bye-menu"><a href="#">Privacy</a></li>
+                                    <li class="bye-primary"><a href="#">Security</a></li>
+                                    <li class="bye-primary"><a href="#">Help</a></li>
+                            </ul>
+                    </div>
+            </div>
+    </section>
+
+
+
+
+    <section class="footer-section">
+            <div class="centred">
+                    <div class="footer-footer">
+                            <div class="footer-logos">
+                                    <ul class="social-logos">
+                                            <li class="facebook"><i class="facebook-logo"></i></li>
+                                            <li class="twitter"><i class="twitter-logo"></i></li>
+                                            <li class="google"><i class="google-logo"></i></li>
+                                            <li class="instagram"><i class="instagram-logo"></i></li>
+                                    </ul>
+                            </div>
+                        <div class="copyright">
+                                <p>DaBuddy | Copyright 2016</p>
+                        </div>
+                    </div>
+            </div>
+    </section>
+
+
+
+
+{% endblock %}
+
+
+
+
+
